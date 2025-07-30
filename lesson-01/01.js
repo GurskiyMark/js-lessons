@@ -70,17 +70,41 @@ let YourNumber = SecretNumberMax;
 while (YourNumber >= SecretNumberMin) {
 
     console.log(`Текущее число: ${YourNumber}`);
-    if (YourNumber === SecretNumberMin){
+    if (YourNumber === SecretNumberMin) {
         console.log("Мы в самом низу 💀" + YourNumber);
     } else if (YourNumber > SecretNumberBig) {
         console.log("Большое число: 💪 " + YourNumber);
-    } else if (YourNumber <= SecretNumberBig && YourNumber >= SecretNumberLow){
+    } else if (YourNumber <= SecretNumberBig && YourNumber >= SecretNumberLow) {
         console.log("Среднее число: ⚖️ " + YourNumber);
-    } else if (YourNumber < SecretNumberLow){
+    } else if (YourNumber < SecretNumberLow) {
         console.log("маленькое число: 🐣" + YourNumber);
-    } 
-    
-        YourNumber -= 1;
-        console.log("цикл завершен 🟢🟢🟢");
-        
+    }
+
+    YourNumber -= 1;
+    console.log("цикл завершен 🟢🟢🟢");
+
 }
+
+let Sum = 0;
+
+for (let i = 1; i <= 20; i++) {
+    Sum += i;
+}
+
+console.log("Сумма чисел от 1 до 20: " + Sum);
+
+
+// let sum = 0;
+//     for (let i = 1; i <= 100; i++){ //i++ это i = i + 1
+//         sum += i //sum = sum + i
+//     }
+// console.log("Сумма чисел от 1 до 100: " + sum);
+
+let sum = 0;
+for (let i = 1; i <= 50; i++) { //i++ это i = i + 1
+    if (i % 2 === 0) {
+        sum += i //sum = sum + i
+    }
+    
+}
+console.log("Сумма чисел от 1 до 100: " + sum);
