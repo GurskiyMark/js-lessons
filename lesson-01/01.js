@@ -100,11 +100,11 @@ console.log("Сумма чисел от 1 до 20: " + Sum);
 //     }
 // console.log("Сумма чисел от 1 до 100: " + sum);
 
-let sum = 0;
-for (let i = 1; i <= 50; i++) { //i++ это i = i + 1
-    if (i % 2 === 0) {
-        sum += i //sum = sum + i
-    }
+// let sum = 0;
+// for (let i = 1; i <= 50; i++) { //i++ это i = i + 1
+//     if (i % 2 === 0) {
+//         sum += i //sum = sum + i
+//     }
     
-}
-console.log("Сумма чисел от 1 до 100: " + sum);
+// }
+// console.log("Сумма чисел от 1 до 100: " + sum);
