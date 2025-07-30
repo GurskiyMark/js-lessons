@@ -91,7 +91,7 @@ for (let i = 1; i <= 20; i++) {
     sum += i;
 }
 
-console.log("Сумма чисел от 1 до 20: " + sum);
+
 
 
 // let sum = 0;
