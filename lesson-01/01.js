@@ -85,13 +85,13 @@ while (YourNumber >= SecretNumberMin) {
 
 }
 
-let Sum = 0;
+let sum = 0;
 
 for (let i = 1; i <= 20; i++) {
-    Sum += i;
+    sum += i;
 }
 
-console.log("Сумма чисел от 1 до 20: " + Sum);
+console.log("Сумма чисел от 1 до 20: " + sum);
 
 
 // let sum = 0;
