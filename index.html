@@ -1,41 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson_1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Lessons</title>
 </head>
 <body>
 
-<h1>Гурский Марк</h1>
+  <h1>Гурский Марк</h1>
 
-<footer data-cy="hw-footer-pre">
+  <footer data-cy="hw-footer-pre">
     <a href="https://it-incubator.io/" target="_blank">it-incubator</a>
-</footer>
+  </footer>
 
-<script>
-const lessons = {
-  'lesson-01': ['01.js','02.js','03.js'],
-  'lesson-02': ['01.js','02.js','03.js'],
-  'lesson-03': ['01.js','02.js','03.js'],
-  'lesson-04': ['01.js','02.js','03.js','04.js'],
-  'lesson-05': ['01.js','02.js'],
-  'lesson-06': ['01.js','02.js'],
-  'lesson-07': ['01.js'],
-  'lesson-08': ['01.js','02.js','03.js'],
-  'lesson-09': ['01.js','02.js'],
-  'lesson-10': ['01.js']
-};
+  <!-- подключаем только одну задачу -->
+<script src="lesson-04/02.js"></script>
 
-for (const [folder, files] of Object.entries(lessons)) {
-  files.forEach(file => {
-    const script = document.createElement('script');
-    script.src = `${folder}/${file}`;
-    document.body.appendChild(script);
-  });
-}
-</script>
 
 </body>
 </html>
+
 
